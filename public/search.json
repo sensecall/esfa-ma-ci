@@ -30,16 +30,6 @@
     "url": "/set-up-an-apprenticeship/test-2"
   },  {
     "data": {
-      "title": "Test post 1"
-,
-      "description": "Just testing how posts work"
-    },
-    "date": "2020-03-30T00:00:00.000Z",
-    "dateString": "30 March 2020",
-    "templateContent": " test search index employer service messaging",
-    "url": "/in-service-messaging/test-post-1"
-  },  {
-    "data": {
       "title": "test 1"
 ,
       "description": "Just testing how posts work"
@@ -48,6 +38,16 @@
     "dateString": "30 March 2020",
     "templateContent": " testas dsad",
     "url": "/set-up-an-apprenticeship/test-1"
+  },  {
+    "data": {
+      "title": "Things we've found across GOV.UK"
+,
+      "description": "Some examples and patterns we've found"
+    },
+    "date": "2020-03-31T00:00:00.000Z",
+    "dateString": "31 March 2020",
+    "templateContent": " list below includes links some patterns examples discussions been able find across gov.uk # 1 alerts design system backlog discussion 2 site banner github community 3 moj pattern 4 notification digital marketplace 5 home office 6 interruption cards",
+    "url": "/covid-19-messaging/alerts-examples"
   },  {
     "data": {
       "title": "Proposed changes"
