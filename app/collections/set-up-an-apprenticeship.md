@@ -11,8 +11,6 @@ related:
       Username: `employer`
       Password: `account`
     href: https://ma-employer-account.herokuapp.com/
-  - text: User needs
-    href: /apply-for-teacher-training/user-needs
 pagination:
   data: collections.set-up-an-apprenticeship
   reverse: true
