@@ -1,6 +1,10 @@
 {
-  "breadcrumbs": [{
-    "text": "In-service messaging",
-    "href": "/in-service-messaging"
-  }]
+	"breadcrumbs": [{
+		"text": "In-service messaging",
+		"href": "/in-service-messaging"
+	}],
+	"tags": [
+		"employer",
+		"in-service-messaging"
+	]
 }

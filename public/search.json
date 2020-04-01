@@ -10,12 +10,14 @@
     "url": "/set-up-your-design-history"
   },  {
     "data": {
-      "title": 
+      "title": "test 2"
+,
+      "description": "Just testing how posts work"
     },
-    "date": "2020-03-29T23:00:00.000Z",
-    "dateString": "30 March 2020",
-    "templateContent": " test",
-    "url": "/set-up-an-apprenticeship/test-1"
+    "date": "2020-03-20T00:00:00.000Z",
+    "dateString": "20 March 2020",
+    "templateContent": " testas dsad",
+    "url": "/set-up-an-apprenticeship/test-2"
   },  {
     "data": {
       "title": "Test post 1"
@@ -24,34 +26,16 @@
     },
     "date": "2020-03-30T00:00:00.000Z",
     "dateString": "30 March 2020",
-    "templateContent": " test",
+    "templateContent": " test search index employer service messaging",
     "url": "/in-service-messaging/test-post-1"
   },  {
     "data": {
-      "title": "sakdsakd"
+      "title": "test 1"
 ,
       "description": "Just testing how posts work"
     },
     "date": "2020-03-30T00:00:00.000Z",
     "dateString": "30 March 2020",
     "templateContent": " testas dsad",
-    "url": "/set-up-an-apprenticeship/test-2"
-  },  {
-    "data": {
-      "title": "Set up an apprenticeship"
-    },
-    "date": "2020-03-31T19:00:46.082Z",
-    "dateString": "31 March 2020",
-    "templateContent": " asd asdasd",
-    "url": "/set-up-an-apprenticeship/"
-  },  {
-    "data": {
-      "title": "In-service messsaging"
-,
-      "description": "A serice for candidates to finsdd courses by location, provider or subject"
-    },
-    "date": "2020-04-01T07:02:29.013Z",
-    "dateString": "1 April 2020",
-    "templateContent": "",
-    "url": "/in-service-messaging/"
+    "url": "/set-up-an-apprenticeship/test-1"
   }]
