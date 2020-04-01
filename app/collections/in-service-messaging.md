@@ -1,6 +1,7 @@
 ---
-title: In-service messaging
-description: A service for 
+title: COVID-19 messaging
+tags: manage-apprenticeships
+description: Patterns for letting DAS users know about changes relating to the COVID-19 crisis
 breadcrumbs:
   text: In-service messaging
   href: /in-service-messaging

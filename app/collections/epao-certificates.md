@@ -1,6 +1,7 @@
 ---
 title: EPAO certificates
-description: A service for 
+tags: support
+description: For support users to manage and delete apprenticeship certificates
 breadcrumbs:
   text: EPAO certificates
   href: /epao-certificates

@@ -1,5 +1,6 @@
 ---
 title: Provider permissions
+tags: manage-apprenticeships
 description: Changes to the DAS journey that allows employers to set provider permissions
 breadcrumbs:
   text: Provider permissions

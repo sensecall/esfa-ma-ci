@@ -1,6 +1,7 @@
 ---
 title: Set up an apprenticeship
-description: A service for 
+tags: manage-apprenticeships
+description: Help new users to self-serve and set up their first apprenticeship
 breadcrumbs:
   text: Set up an apprenticeship
   href: /set-up-an-apprenticeship
