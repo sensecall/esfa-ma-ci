@@ -7,44 +7,21 @@ eleventyExcludeFromCollections: true
 ---
 
 <div class="govuk-grid-row">
-	<div class="govuk-grid-column-full">
-		<h2 class="govuk-heading-l">
-			Manage apprenticeships
-		</h2>
-	</div>
+{% for item in collections["product"] | sort("data.order") %}
+{% if loop.index == 1 %}
+<div class="govuk-grid-column-full govuk-!-margin-top-3">
+<h2 class="govuk-heading-l">Manage apprenticeships</h2>
 </div>
-<div class="govuk-grid-row">
-	<div class="govuk-grid-column-one-half">
-		<h2 class="govuk-heading-m govuk-!-margin-bottom-1">
-			<a href="in-service-messaging">In-service messaging</a>
-		</h2>
-	</div>
-	<div class="govuk-grid-column-one-half">
-		<h2 class="govuk-heading-m govuk-!-margin-bottom-1">
-			<a href="set-up-an-apprenticeship">Set up an apprenticeship</a>
-		</h2>
-		<p class="govuk-body">
-			Employers.
-		</p>
-	</div>
+{% elseif loop.index == 4 %}
+<div class="govuk-grid-column-full govuk-!-margin-top-3">
+<h2 class="govuk-heading-l">Support</h2>
 </div>
-
-<div class="govuk-grid-row govuk-!-margin-top-8">
-	<div class="govuk-grid-column-full">
-		<h2 class="govuk-heading-l">
-			Support
-		</h2>
-	</div>
-</div>
-<div class="govuk-grid-row">
-	<div class="govuk-grid-column-one-half">
-		<h2 class="govuk-heading-m govuk-!-margin-bottom-1">
-			<a href="#">EPAO certificates</a>
-		</h2>
-	</div>
-	<div class="govuk-grid-column-one-half">
-		<!-- <h2 class="govuk-heading-m govuk-!-margin-bottom-1">
-			Project 2
-		</h2> -->
-	</div>
+{% endif %}
+<section class="govuk-grid-column-one-half govuk-!-margin-bottom-6">
+<h3 class="govuk-heading-m govuk-!-margin-bottom-1">
+<a href="{{ item.url }}">{{ item.data.title }}</a>
+</h3>
+<p class="govuk-body">{{ item.data.description }}</p>
+</section>
+{% endfor %}
 </div>
